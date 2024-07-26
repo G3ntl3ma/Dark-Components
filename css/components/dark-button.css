@@ -1,0 +1,11 @@
+.dark-button {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 1rem;
+  font-family: geist, Helvetica, Arial, sans-serif;
+  min-width: 2rem;
+  min-height: 1rem;
+}
