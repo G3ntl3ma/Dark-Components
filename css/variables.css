@@ -1,0 +1,27 @@
+:root {
+  --background-color: #121212;
+  --text-color: #fff;
+  --hover-color: #242424;
+  --font-families: geist, Helvetica, Aria, sans-serif;
+  --light-background: #363636;
+}
+
+@font-face {
+  font-family: geist;
+  src: url("./Geist[wght].ttf");
+}
+
+@font-face {
+  font-family: robotoslap;
+  src: url("./RobotoSlab-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("./Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: playfair;
+  src: url("./PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+}

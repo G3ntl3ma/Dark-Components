@@ -1,0 +1,9 @@
+.dark-dl dt {
+  font-family: robotoslap;
+  font-weight: bold;
+}
+
+.dark-dl dd {
+  margin-bottom: 1em;
+  font-weight: 300;
+}

@@ -2,10 +2,16 @@
   color: var(--text-color);
   background-color: var(--background-color);
   border-width: 1px;
-  border-color: white;
+  border-color: var(--text-color);
   border-style: solid;
   padding: 1rem;
-  font-family: geist, Helvetica, Arial, sans-serif;
   min-width: 2rem;
   min-height: 1rem;
+  font-family: var(--font-families);
+  animation-name: hover;
+  transition: 0.2s;
+}
+
+.dark-button:hover {
+  background-color: var(--hover-color);
 }

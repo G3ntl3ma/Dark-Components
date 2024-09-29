@@ -1,0 +1,7 @@
+.dark-blockquote {
+  padding: 3em;
+  background-color: var(--light-background);
+  border-radius: 0.5em;
+  font-family: robotoslap;
+  font-weight: 300;
+}

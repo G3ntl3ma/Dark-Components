@@ -1,0 +1,11 @@
+.dark-figure {
+  border: solid 1px white;
+}
+.dark-figure figcaption {
+  padding: 0.3em;
+  background-color: var(--light-background);
+}
+
+.dark-figure img {
+  display: block;
+}

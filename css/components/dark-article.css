@@ -1,0 +1,8 @@
+.dark-article {
+  background-color: var(--light-background);
+  padding: 1rem;
+  font-family: montserrat;
+  width: fit-content;
+  height: fit-content;
+  margin: 0.5rem;
+}

@@ -1,0 +1,3 @@
+.dark-li li::before {
+  content: "-";
+}

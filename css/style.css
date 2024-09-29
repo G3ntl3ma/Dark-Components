@@ -1,4 +1,14 @@
-custom-button {
-  color: blue;
-  text-color: blue;
-}
+@import url("variables.css");
+@import url("components/dark-body.css");
+@import url("components/dark-button.css");
+@import url("components/dark-article.css");
+@import url("components/dark-nav.css");
+@import url("components/dark-blockquote.css");
+@import url("components/dark-dl.css");
+@import url("components/dark-figure.css");
+@import url("components/dark-ul.css");
+@import url("components/dark-menu.css");
+@import url("components/dark-a.css");
+@import url("components/dark-pre.css");
+@import url("components/dark-abbr.css");
+@import url("components/dark-cite.css");

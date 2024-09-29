@@ -1,0 +1,9 @@
+.dark-menu {
+  list-style: none;
+  display: flex;
+  border: solid, 1px, var(--text-color);
+}
+
+.dark-menu li {
+  padding: 0.5em;
+}

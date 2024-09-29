@@ -1,0 +1,28 @@
+.dark-nav ol li a {
+  align-items: center;
+  display: flex;
+}
+.dark-nav ol li a::after {
+  position: relative;
+  display: inline-block;
+  color: var(--text-color);
+  content: url("../arrow-forward.svg");
+  width: 15px;
+  height: 15px;
+  transform: rotate(-90deg) translate(-2px, 0px);
+  top: 60%;
+}
+
+.dark-nav ol {
+  list-style-type: none;
+  border-top: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  background: var(--light-background);
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+.dark-nav ol li {
+  display: inline-block;
+  height: fit-content;
+}

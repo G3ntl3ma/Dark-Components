@@ -1,0 +1,5 @@
+.dark-body {
+  font-family: var(--font-families);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

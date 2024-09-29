@@ -1,0 +1,8 @@
+.dark-ul {
+  list-style: none;
+}
+
+.dark-ul li::before {
+  content: "-";
+  padding-right: 0.8em;
+}
