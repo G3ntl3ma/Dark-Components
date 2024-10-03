@@ -1,3 +1,6 @@
 .dark-code {
-  background-color: var(--light-background);
+  background-color: var(--dark-background);
+  border: solid 1px white;
+  border-radius: 3px;
+  padding: 0.3em;
 }

@@ -1,0 +1,20 @@
+.dark-table,
+.dark-table th,
+.dark-table td {
+  border: 1px, solid, white;
+  border-collapse: collapse;
+  padding: 0.1em;
+}
+
+.dark-table tr:nth-child(even) {
+  background-color: #242424;
+}
+
+.dark-table tr:hover {
+  color: var(--dark-background);
+  background-color: var(--text-color);
+}
+
+.dark-table thead {
+  font-weight: bold;
+}

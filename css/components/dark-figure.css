@@ -1,5 +1,6 @@
 .dark-figure {
   border: solid 1px white;
+  width: fit-content;
 }
 .dark-figure figcaption {
   padding: 0.3em;

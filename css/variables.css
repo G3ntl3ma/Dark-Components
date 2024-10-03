@@ -4,6 +4,7 @@
   --hover-color: #242424;
   --font-families: geist, Helvetica, Aria, sans-serif;
   --light-background: #363636;
+  --dark-background: #000;
 }
 
 @font-face {
