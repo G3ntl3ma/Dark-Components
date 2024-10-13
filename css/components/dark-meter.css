@@ -1,0 +1,26 @@
+.dark-meter {
+  /* Firefox */
+  meter:-moz-meter-optimum::-moz-meter-bar {
+    background: var(--green);
+  }
+  meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: var(--yellow);
+  }
+  meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    background: var(--red);
+  }
+
+  /* Chrome */
+  meter::-webkit-meter-bar {
+    background: var(--light-background);
+  }
+  meter::-webkit-meter-optimum-value {
+    background: var(--green);
+  }
+  meter::-webkit-meter-suboptimum-value {
+    background: var(--yellow);
+  }
+  meter::-webkit-meter-even-less-good-value {
+    background: var(--red);
+  }
+}

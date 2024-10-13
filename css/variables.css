@@ -5,6 +5,9 @@
   --font-families: geist, Helvetica, Aria, sans-serif;
   --light-background: #363636;
   --dark-background: #000;
+  --green: #14532d;
+  --red: #7f1d1d;
+  --yellow: #facc15;
 }
 
 @font-face {

@@ -269,7 +269,7 @@
       <option value="Vanilla"></option>
     </datalist>
 
-    <fieldset>
+    <fieldset class="dark-fieldset">
       <legend>This is a fieldset and a legend</legend>
       <input type="radio" id="kraken" name="monster" value="K" />
       <label for="kraken">Kraken</label><br />
@@ -283,7 +283,7 @@
     <form action="" method="get" class="form-example">
       <div class="form-example">
         <label for="name">Enter your name: </label>
-        <input type="text" name="name" id="name" required />
+        <input type="text" class="dark-input" name="name" id="name" required />
       </div>
       <div class="form-example">
         <label for="email">Enter your email: </label>
@@ -311,13 +311,14 @@
 
     <label for="fuel">This is a meter</label>
     <meter
+      class="dark-meter"
       id="fuel"
       min="0"
       max="100"
       low="33"
       high="66"
       optimum="80"
-      value="50"
+      value="20"
     >
       at 50/100
     </meter>
@@ -361,12 +362,12 @@
     </form>
 
     <label for="story">This is a textarea</label>
-    <textarea id="story" name="story" rows="5" cols="33">
+    <textarea class="dark-textarea" id="story" name="story" rows="5" cols="33">
         It was a dark and stormy night...
     </textarea>
 
-    <details>
-      <summary>These are Details and summaries</summary>
+    <details class="dark-details">
+      <summary class="dark-summary">These are Details and summaries</summary>
       Something small enough to escape casual notice.
     </details>
   </body>
